@@ -1,31 +1,14 @@
-# ── Core framework ──────────────────────────
-streamlit>=1.32.0
-
-# ── CrewAI (pinned to a stable release) ─────
-crewai==0.30.11
-crewai-tools==0.2.6
-
-# ── LangChain ───────────────────────────────
-langchain==0.2.5
-langchain-core==0.2.9
-langchain-groq==0.1.6
-langchain-community==0.2.5
-
-# ── LLM / Embeddings ────────────────────────
-groq==0.9.0
-sentence-transformers==2.7.0
-faiss-cpu==1.8.0
-
-# ── Web search ───────────────────────────────
-google-search-results==2.4.2
-duckduckgo-search==6.1.7
-
-# ── Pydantic (v2 — compatible with above) ───
-pydantic==2.7.4
-pydantic-settings==2.3.4
-
-# ── Utilities ────────────────────────────────
-rich==13.7.1
-numpy==1.26.4
-matplotlib==3.9.0
-requests==2.32.3
+streamlit
+groq
+langchain-groq
+langchain-community
+langchain
+crewai
+crewai-tools
+sentence-transformers
+google-search-results
+duckduckgo-search
+matplotlib
+numpy
+faiss-cpu
+ 

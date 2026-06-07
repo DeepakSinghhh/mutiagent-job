@@ -35,6 +35,14 @@ html, body, .stApp {
     font-family: 'Rajdhani', sans-serif !important;
     color: var(--text-primary) !important;
 }
+/* Hides Streamlit's top toolbar that was covering the header */
+header[data-testid="stHeader"] { display: none !important; }
+div[data-testid="stToolbar"]   { display: none !important; }
+#MainMenu                       { display: none !important; }
+footer                          { display: none !important; }
+
+/* Adds breathing room so your NEXUS header starts from the top */
+.block-container { padding-top: 1.5rem !important; }
 
 .stApp {
     background-image:
